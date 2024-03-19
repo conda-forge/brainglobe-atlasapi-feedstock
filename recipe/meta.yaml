@@ -1,5 +1,5 @@
 {% set name = "brainglobe-atlasapi" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/brainglobe-atlasapi-{{ version }}.tar.gz
-  sha256: d8fc449e415d510933d4b280947a2524f9f7292cb15f8db6d342f5dc4c02220b
+  sha256: f5c33aff2a03597f7d922cde6a076d754290dae76b7f0ae5691e6308d152c6eb
 
 build:
   noarch: python
