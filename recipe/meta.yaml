@@ -34,6 +34,7 @@ requirements:
     - requests
     - rich >=9.0.0
     - simpleitk
+    - scikit-image
     - tifffile
     - tqdm >=4.46.1
     - treelib
