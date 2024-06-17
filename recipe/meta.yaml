@@ -1,5 +1,5 @@
 {% set name = "brainglobe-atlasapi" %}
-{% set version = "2.0.6" %}
+{% set version = "2.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b0b65ffd42ccefc931ff92517ebbc56e0aa0c8988fffe3ff1e725f986098bc2b
+  sha256: e67220c6e80c411c921cfe288b0b5710737f2fea872d92e40af7240c05cbf547
 
 build:
   noarch: python
@@ -25,22 +25,16 @@ requirements:
     - python >=3.9
     - brainglobe-space >=1.0.0
     - click
-    - loguru
     - meshio
     - numpy
     - pandas
     - pyarrow
-    - pymcubes
     - requests
     - rich >=9.0.0
-    - simpleitk
-    - scikit-image
     - tifffile
     - tqdm >=4.46.1
     - treelib
-    - vedo
     - vtk
-    - xmltodict
 
 test:
   imports:
