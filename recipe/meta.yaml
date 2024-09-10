@@ -41,6 +41,7 @@ test:
     - brainglobe_atlasapi
   commands:
     - pip check
+    - brainglobe --help
   requires:
     - pip
 
