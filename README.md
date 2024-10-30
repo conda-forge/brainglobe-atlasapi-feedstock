@@ -145,5 +145,4 @@ Feedstock Maintainers
 
 * [@adamltyson](https://github.com/adamltyson/)
 * [@alessandrofelder](https://github.com/alessandrofelder/)
-* [@willGraham01](https://github.com/willGraham01/)
 
