@@ -1,4 +1,4 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 {% set name = "brainglobe-atlasapi" %}
 {% set version = "2.2.0" %}
 
