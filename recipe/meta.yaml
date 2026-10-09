@@ -31,7 +31,7 @@ requirements:
     - DracoPy !=2.1.0
     - fsspec
     - meshio
-    - ngff_zarr <0.37.0
+    - ngff_zarr >=0.37.0
     - numpy
     - pandas
     - pyarrow
