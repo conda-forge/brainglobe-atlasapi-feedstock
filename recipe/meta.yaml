@@ -32,7 +32,7 @@ requirements:
     - fsspec
     - meshio
     - ngff_zarr >=0.37.0
-    - numpy
+    - numpy <2.5
     - pandas
     - pyarrow
     - requests
