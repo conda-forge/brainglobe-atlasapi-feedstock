@@ -1,4 +1,4 @@
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 {% set name = "brainglobe-atlasapi" %}
 {% set version = "3.0.2" %}
 
@@ -24,18 +24,24 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - aiobotocore >=3.6.0
     - brainglobe-space >=1.0.0
     - click
+    - dask-core
+    - DracoPy !=2.1.0
+    - fsspec
     - meshio
+    - ngff_zarr <0.37.0
     - numpy
     - pandas
     - pyarrow
     - requests
     - rich >=9.0.0
-    - tifffile
+    - s3fs
+    - tifffile >=2018.11.6
     - tqdm >=4.46.1
     - treelib
-    - vtk
+    - zarr >3
 
 test:
   imports:
