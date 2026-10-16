@@ -1,6 +1,6 @@
 {% set python_min = "3.12" %}
 {% set name = "brainglobe-atlasapi" %}
-{% set version = "3.0.2" %}
+{% set version = "3.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5d3531309dfe0e437467b0250d0e3e049e48c810f0903c97b976ff5b8f6a416c
+  sha256: 7df4674ad055c23cd4ca5c0e2d7664b1bf506d3972c2256eee0dbfb2d1487fa3
 
 build:
   noarch: python
