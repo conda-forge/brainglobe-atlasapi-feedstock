@@ -27,7 +27,7 @@ requirements:
     - aiobotocore >=3.6.0
     - brainglobe-space >=1.0.0
     - click
-    - dask-core
+    - dask
     - DracoPy !=2.1.0
     - fsspec
     - meshio
